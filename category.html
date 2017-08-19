@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/base.css"/>
+    <link rel="stylesheet" href="css/bjss.css"/>
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css"/>
+</head>
+<body>
+<!--header start-->
+<header id="header">
+    <div class="header_logo">
+        <a href="index.html">
+            <img src="images/header_logo.png" alt=""/>
+        </a>
+    </div>
+    <div class="header_app">
+        <a href="index.html">
+            <img src="images/header_app.png" alt=""/>
+        </a>
+    </div>
+</header>
+<!--header end-->
+
+<!--search start-->
+<section id="search">
+    <form action="搜索提交地址">
+        <input type="text" placeholder="   请输入你想比价的商品" class="searchbox"/>
+        <input type="button" value="搜索" class="searchbtn"/>
+    </form>
+</section>
+<!--search end-->
+
+<!--手风琴开始 -->
+<section id="tvMenu">
+    <ul id="tvMenuu">
+        <li class="tvTitle tvTitle0" titleId="0"><span>大家电</span><i></i></li>
+        <div class="tvList tvList0 row">
+            <div class="tvContent col-xs-4"><a href="#">电视</a></div>
+            <div class="tvContent col-xs-4"><a href="#">电视</a></div>
+            <div class="tvContent col-xs-4"><a href="#">电视</a></div>
+            <div class="tvContent col-xs-4"><a href="#">电视</a></div>
+            <div class="tvContent col-xs-4"><a href="#">电视</a></div>
+            <div class="tvContent col-xs-4"><a href="#">电视</a></div>
+        </div>
+        <li class="tvTitle tvTitle0" ><span>大家电</span><i></i></li>
+        <div class="tvList tvList0 row"></div>
+        <li class="tvTitle tvTitle0" ><span>大家电</span><i></i></li>
+        <div class="tvList tvList0 row"></div>
+        <li class="tvTitle tvTitle0" ><span>大家电</span><i></i></li>
+        <div class="tvList tvList0 row"></div>
+        <li class="tvTitle tvTitle0" ><span>大家电</span><i></i></li>
+        <div class="tvList tvList0 row"></div>
+        <li class="tvTitle tvTitle0" ><span>大家电</span><i></i></li>
+        <div class="tvList tvList0 row"></div>
+        <li class="tvTitle tvTitle0" ><span>大家电</span><i></i></li>
+        <div class="tvList tvList0 row"></div>
+        <li class="tvTitle tvTitle0" ><span>大家电</span><i></i></li>
+        <div class="tvList tvList0 row"></div>
+
+    </ul>
+</section>
+<!--手风琴结束 -->
+
+
+<!--footer start-->
+<footer id="footer">
+    <div class="w30"><a href="#">登陆</a></div>
+    <div class="w30"><a href="#">注册</a></div>
+    <div class="w40"><a href="#" class="as"><img src="http://www.zuyushop.com/wap/images/top.jpg" alt=""/>返回顶部</a></div>
+    <p>
+        <a href="跳转">
+            <span> 手机APP下载 </span><span>慢慢买手机版</span><span>-掌上比价平台</span>
+        </a>
+    </p>
+    <a href="#">m.manmanbuy.com</a>
+
+
+</footer>
+<!--footer end-->
+
+<!--动态模板-->
+<script type="text/html" id="tvTitleTpl">
+  {{each data as value index}}
+  <li class="tvTitle tvTitle{{value.titleId}}" titleId={{value.titleId}}><span>{{value.title}}</span><i></i></li>
+  <div class="tvList tvList{{value.titleId}} row"></div>
+  {{/each}}
+</script>
+
+<script type="text/html" id="tvListTpl">
+    {{each data as value index}}
+    <!--<div class="tvContent col-xs-4"><a href="#">电视</a></div>-->
+    <div class="tvContent col-xs-4" titleId={{value.titleId}}>
+        <a href="productlist.html?category={{value.category}}&categoryId={{value.categoryId}}">{{value.category}}</a>
+    </div>
+    {{/each}}
+
+</script>
+
+<script src="lib/jquery/jquery.min.js"></script>
+<script src="js/template.js"></script>
+<script src="js/url.js"></script>
+<script src="js/bjss.js"></script>
+
+</body>
+</html>

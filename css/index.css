@@ -1,0 +1,190 @@
+body {
+  background: red;
+}
+#header {
+  width: 100%;
+  height: 51px;
+  background-color: #ff841d;
+  padding: 0 10px;
+}
+#header .header_logo {
+  float: left;
+  margin-top: 13px;
+}
+#header .header_logo a img {
+  width: 185px;
+  height: 25px;
+}
+#header .header_app {
+  float: right;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+#header .header_app a img {
+  width: 34px;
+  height: 34px;
+}
+#search {
+  width: 100%;
+  height: 50px;
+  border-bottom: 1px solid #e6e6e6;
+  position: relative;
+}
+#search form .searchbox {
+  width: 90%;
+  height: 30px;
+  background: #f1f1f1;
+  border: none;
+  border-radius: 15px;
+  margin-right: 80px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+#search form .searchbtn {
+  border: none;
+  width: 63px;
+  height: 30px;
+  border-radius: 15px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background: #ff841d;
+  line-height: 30px;
+  font-size: 16px;
+  color: #ffffff;
+}
+#menu {
+  padding: 6px 0;
+}
+#menu .row {
+  padding: 10px;
+}
+#menu .row .item {
+  text-align: center;
+}
+#menu .row .item a img {
+  width: 50px;
+  height: 50px;
+}
+#menu .row .item a p {
+  margin-top: 3px;
+  color: #000000;
+  font-size: 12px;
+}
+#dissale .dissaleTitle {
+  width: 100%;
+  height: 36px;
+  background: #ff841d;
+}
+#dissale .dissaleTitle h4 span {
+  line-height: 36px;
+  color: #ffffff;
+  padding-left: 10px;
+  float: left;
+}
+#dissale .dissaleTitle h4 img {
+  width: 20px;
+  height: 20px;
+  float: right;
+  margin-right: 10px;
+  margin-top: 8px;
+}
+#dissale .dissaleList .media {
+  margin: 0 10px;
+  padding: 15px;
+  border-bottom: 1px solid #a1a1a1;
+}
+#dissale .dissaleList .media .pull-left img {
+  width: 100px;
+  height: 100px;
+}
+#dissale .dissaleList .media .media-body {
+  color: #a1a1a1;
+}
+#dissale .dissaleList .media .media-body .media-heading {
+  margin-top: 10px;
+}
+#dissale .dissaleList .media .media-body .media-heading span {
+  color: red;
+}
+#dissale .dissaleList .media .media-body p {
+  margin-top: 40px;
+}
+#dissale .dissaleList .media .media-body p .s1 {
+  float: right;
+}
+#dissale .dissaleMore {
+  padding: 10px;
+}
+#dissale .dissaleMore a {
+  display: block;
+  width: 100%;
+  height: 30px;
+  border: 1px solid #a1a1a1;
+  background: pink;
+  line-height: 30px;
+  text-align: center;
+  color: #000000;
+  border-radius: 3px;
+}
+#tuijian .dissaleTitle {
+  width: 100%;
+  height: 36px;
+  background: #ff841d;
+}
+#tuijian .dissaleTitle h4 span {
+  line-height: 36px;
+  color: #ffffff;
+  padding-left: 10px;
+  float: left;
+}
+#tuijian .dissaleTitle h4 img {
+  width: 20px;
+  height: 20px;
+  float: right;
+  margin-right: 10px;
+  margin-top: 8px;
+}
+#footer {
+  margin-bottom: 10px;
+  text-align: center;
+}
+#footer .w30 {
+  float: left;
+  width: 30%;
+  text-align: center;
+  border: 1px solid #a1a1a1;
+  line-height: 34px;
+  margin: 10px 0;
+}
+#footer .w30 a {
+  display: block;
+  color: #000000;
+}
+#footer .w40 {
+  float: left;
+  width: 40%;
+  text-align: center;
+  border: 1px solid #a1a1a1;
+  line-height: 34px;
+  margin: 10px 0;
+}
+#footer .w40 a {
+  display: block;
+  color: #000000;
+}
+#footer .w40 a img {
+  width: 15px;
+  height: 15px;
+}
+#footer p a {
+  font-size: 12px;
+  color: #000000;
+}
+#footer p a span:first-child {
+  color: red;
+}
+#footer a {
+  color: #000000;
+}
+/*# sourceMappingURL=index.css */

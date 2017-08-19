@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+    //ajax封装
+    window.$={};
+    $.ajax=function(options){
+        if(!options || typeof options!='object'){
+            return false;
+        }
+        //设置请求的类型 默认是get
+        var type=options.type || 'get';
+        //请求的地址  默认是当前的地址
+        var url=options.url || location.pathname;
+
+    }
+
+</script>
+</body>
+</html>

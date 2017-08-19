@@ -1,0 +1,59 @@
+#nav {
+  padding: 5px 10px;
+  border-bottom: 1px solid #a1a1a1;
+  line-height: 30px;
+}
+#nav .btn {
+  border: none;
+  float: right;
+}
+.media {
+  margin: 0 10px;
+  padding: 15px;
+}
+.media .pull-left img {
+  width: 100px;
+  height: 100px;
+}
+.media .media-body {
+  color: #a1a1a1;
+}
+.media .media-body .media-heading {
+  margin-top: 10px;
+}
+.media .media-body .media-heading span {
+  color: red;
+}
+.media .media-body .red {
+  color: red;
+}
+.media .media-body .jdsc .s1 {
+  float: right;
+}
+#sxy {
+  height: 40px;
+  display: flex;
+  border-top: 1px solid #a1a1a1;
+  padding: 10px;
+  text-align: center;
+}
+#sxy .btn-right {
+  flex: 1;
+}
+#sxy .btn-right button {
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+}
+#sxy .select {
+  flex: 1;
+}
+#sxy .btn-left {
+  flex: 1;
+}
+#sxy .btn-left button {
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+}
+/*# sourceMappingURL=productlist.css */

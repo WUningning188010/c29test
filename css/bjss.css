@@ -1,0 +1,32 @@
+#tvMenu {
+  padding: 5px;
+}
+#tvMenu #tvMenuu {
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  background-color: #ebebeb;
+}
+#tvMenu #tvMenuu .tvTitle {
+  height: 40px;
+  border-bottom: 1px solid #cccccc;
+  font-size: 16px;
+  line-height: 40px;
+  padding-left: 10px;
+  background: url(http://www.zuyushop.com/wap/images/arrow1.gif) right center no-repeat;
+  font-weight: bold;
+}
+#tvMenu .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+#tvMenu .row .tvContent {
+  height: 30px;
+  border: 1px solid #cccccc;
+  text-align: center;
+  line-height: 30px;
+}
+#tvMenu .row .tvContent a {
+  display: inline-block;
+  color: #3c3c3c;
+}
+/*# sourceMappingURL=bjss.css */
